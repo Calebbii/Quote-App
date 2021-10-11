@@ -19,6 +19,10 @@ https://calebbii.github.io/Quote-App/
 * Clone the repo
 * Opening the project on a text editor
 * Open the project on a live server
+
+## Author
+Caleb Bii
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
