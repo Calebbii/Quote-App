@@ -26,6 +26,10 @@ Caleb Bii
 ## Support and Contact detail
 Email : biicaleb316@gmail.com
 
+## License and Copyright
+[MIT Lisence](https://github.com/Calebbii/Vannce-Inn-Pizza/blob/master/LICENSE) Copyright (c) 2021 Calebbii
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
