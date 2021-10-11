@@ -4,6 +4,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Live Link
 https://calebbii.github.io/Vannce-Inn-Pizza/home.html
+## Features
+* Built with HTML, CSS, Bootstrap and JavaScript
+* Easy to run
+* Proper Idenation
 
 ## Development server
 
