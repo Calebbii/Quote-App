@@ -7,7 +7,7 @@ An application where users create quotes and have those quotes voted on whether 
 ## Live Link
 https://calebbii.github.io/Quote-App/
 ## Features
-* Built with HTML, CSS, Bootstrap, JavaScript and Typescript
+* Built with HTML, CSS, Bootstrap and Typescript
 * Easy to run
 * Proper Idenation
 
