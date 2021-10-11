@@ -23,6 +23,9 @@ https://calebbii.github.io/Quote-App/
 ## Author
 Caleb Bii
 
+## Support and Contact detail
+Email : biicaleb316@gmail.com
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
