@@ -17,7 +17,7 @@ export class CiteComponent implements OnInit {
 
       messages = [
         new Citation(0,'Caleb', 'caleb@gmail.com', '“It is in the little moments that we live the longest. Everything else is existence.”',0),
-        new Citation(0,'Taleeban', 'taleeban@gmail.com', 'Hi there such amaizing quotes',0)
+        new Citation(0,'Taleeban', 'taleeban@gmail.com', '"The longest path is always the one you walk with fear!"',0)
         
       ];
 
