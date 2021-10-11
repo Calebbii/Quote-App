@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
 
 ## Live Link
-https://calebbii.github.io/Vannce-Inn-Pizza/home.html
+https://calebbii.github.io/Quote-App/
 ## Features
 * Built with HTML, CSS, Bootstrap and JavaScript
 * Easy to run
