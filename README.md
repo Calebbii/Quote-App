@@ -16,6 +16,7 @@ https://calebbii.github.io/Quote-App/
 * CSS
 * BOOTSTRAP
 * JAVASCRIPT
+* Typescript
 * Angular
 
 ## Setup and Installation Requirements
