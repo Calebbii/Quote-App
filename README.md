@@ -15,7 +15,6 @@ https://calebbii.github.io/Quote-App/
 * HTML
 * CSS
 * BOOTSTRAP
-* JAVASCRIPT
 * TYPESCRIPT
 * ANGULAR
 
