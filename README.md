@@ -15,6 +15,10 @@ https://calebbii.github.io/Vannce-Inn-Pizza/home.html
 * BOOTSTRAP
 * JAVASCRIPT
 
+## Setup and Installation Requirements
+* Clone the repo
+* Opening the project on a text editor
+* Open the project on a live server
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
