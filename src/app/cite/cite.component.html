@@ -1,0 +1,41 @@
+<div id="quotes">
+    <h1>Today's Quotes</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form (ngSubmit)='submitMessage()'>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="text" class="form-control" name="name" [(ngModel)]="citeName" placeholder="Name" autocomplete="off">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" name="email" [(ngModel)]="citeEmail" placeholder="name@example.com" autocomplete="off">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Quote for Today</label>
+                        <textarea class="form-control" name="message" [(ngModel)]="citeMessage" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Add Quote</button>
+                </form>
+            </div>
+            <div class="col">
+                <div class="display">
+                    <p>Name:{{citeName}}</p>
+                    <p>Email:{{citeEmail}}</p>
+                    <p>{{citeMessage}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="loop" *ngFor='let message of messages'>
+            <h3>{{message.citeName}}</h3>
+            <p>{{message.citeEmail}}</p>
+            <p>{{message.citeMessage}}</p>
+            <button type="button" class="btn btn-danger" (click)="delete(message)">Delete</button>
+            <button type="submit" class="btn btn-primary" (click)="upvote(message)">Upvote({{message.upVote}})</button>
+            <button type="submit" class="btn btn-warning" (click)="downvote(message)">Downvote</button>
+        </div>
+    </div>
+</div>
