@@ -33,6 +33,7 @@
             <h3>{{message.citeName}}</h3>
             <p>{{message.citeEmail}}</p>
             <p>{{message.citeMessage}}</p>
+            <P>{{message.datePosted | date:'short'}}</P>
             <button type="button" class="btn btn-danger" (click)="delete(message)">Delete</button>
             <button type="submit" class="btn btn-primary" (click)="upvote(message)">Upvote({{message.upVote}})</button>
             <button type="submit" class="btn btn-warning" (click)="downvote(message)">Downvote({{message.downVote}})</button>
