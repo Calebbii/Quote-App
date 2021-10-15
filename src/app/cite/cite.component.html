@@ -30,6 +30,8 @@
     </div>
     <div>
         <div class="loop" *ngFor='let message of messages'>
+            <p  *ngIf="highestVotes()!==message.upVote || message.upVote===0">{{message.citeMessage}}</p>
+            <p appOutlook *ngIf="highestVotes()===message.upVote && message.upVote>0">{{message.citeMessage}}</p>
             <h3>{{message.citeName}}</h3>
             <p>{{message.citeEmail}}</p>
             <p>{{message.citeMessage}}</p>
