@@ -19,6 +19,9 @@ export class CiteComponent implements OnInit {
       upVote!:number | '';
       downVote!:number | '';
       datePosted!: Date | '';
+      currentVote:number;
+      newVote:number;
+      counter:number;
 
       messages = [
         new Citation(0,'Caleb', 'caleb@gmail.com', '“It is in the little moments that we live the longest. Everything else is existence.”',0,0,new Date()),
@@ -41,6 +44,17 @@ export class CiteComponent implements OnInit {
 
   downvote(x:Citation) {
     x.downVote+=1;
+  }
+
+  highestVotes(){
+    this.currentVote = 0
+    this.newVote = 0
+
+    for(this.counter=0 ; this.counter < this.messages.length; this.counter++) {
+      this.newVote = this.messages[this.counter].upVote;
+      if(this.newVote > this.currentVote){this.currentVote = this.newVote}
+    }
+    return  this.currentVote
   }
 
   constructor() { }
