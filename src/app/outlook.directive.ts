@@ -1,10 +1,12 @@
-import { Directive } from '@angular/core';
+import { Directive, ElementRef } from '@angular/core';
 
 @Directive({
   selector: '[appOutlook]'
 })
 export class OutlookDirective {
 
-  constructor() { }
+  constructor(elem:ElementRef) { 
+    elem.nativeElement.style.backgroundColor="#F2E4D4"
+  }
 
 }
