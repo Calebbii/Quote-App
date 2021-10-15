@@ -50,7 +50,7 @@ export class CiteComponent implements OnInit {
     this.currentVote = 0
     this.newVote = 0
 
-    for(this.counter=0 ; this.counter < this.messages.length; this.counter++) {
+    for(this.counter=0 ; this.counter < this.messages.length; this.counter ++ ) {
       this.newVote = this.messages[this.counter].upVote;
       if(this.newVote > this.currentVote){this.currentVote = this.newVote}
     }
