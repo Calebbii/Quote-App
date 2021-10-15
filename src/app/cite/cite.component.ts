@@ -19,9 +19,9 @@ export class CiteComponent implements OnInit {
       upVote!:number | '';
       downVote!:number | '';
       datePosted!: Date | '';
-      currentVote:number;
-      newVote:number;
-      counter:number;
+      currentVote!:number;
+      newVote!:number;
+      counter!:number;
 
       messages = [
         new Citation(0,'Caleb', 'caleb@gmail.com', '“It is in the little moments that we live the longest. Everything else is existence.”',0,0,new Date()),
